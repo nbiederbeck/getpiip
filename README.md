@@ -28,4 +28,4 @@ and add at the bottom
 
 Chat Id
 -------
-To get your Telegram `CHAT_ID` write [@id_chatbot](telegram.me/@id_chatbot) '/start'.
+To get your Telegram `CHAT_ID` write [@id_chatbot](https://telegram.me/id_chatbot) '/start'.
