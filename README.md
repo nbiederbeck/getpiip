@@ -25,3 +25,7 @@ and add at the bottom
 ```bash
 @reboot sleep 10; $HOME/getpiip/getpiip.sh
 ```
+
+Chat Id
+-------
+To get your Telegram `CHAT_ID` write [@id_chatbot](telegram.me/@id_chatbot) '/start'.
