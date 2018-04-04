@@ -9,7 +9,5 @@ function post_message {
     curl -s -X POST $URL -d chat_id=$CHAT_ID -d text="$1" > /dev/null
 }
 
-MESSAGE="Raspberry Pi IP: $IP"
-
-post_message "$MESSAGE"
-echo "$MESSAGE"
+post_message "$IP"
+echo "$IP"
