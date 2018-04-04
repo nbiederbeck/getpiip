@@ -1,6 +1,6 @@
 #!/bin/bash
-TOKEN="475494777:AAFxuvbrh_zb2DGrlx0RYoi9b2XJoDWgKNE"
-CHAT_ID=322086570
+TOKEN="556288221:AAEOCnxK-6F2pfZXbXPTJMDtX-i9iEbLG_Q"
+CHAT_ID=$CHAT_ID
 URL="https://api.telegram.org/bot$TOKEN/sendMessage"
 
 IP=$(ip a | awk '/inet / {print $2}' | awk -F '/' '!/^127/ {print $1}')
