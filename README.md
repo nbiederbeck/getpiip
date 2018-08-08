@@ -6,24 +6,20 @@ Make sure to set or export your `CHAT_ID`!
 
 Usage
 -----
-Clone this repo
+- Clone this repo
 ```bash
 git clone https://github.com/nonator/getpiip.git $HOME/getpiip
 ```
 
-Export your chat_id
+- Export your chat_id
 ```bash
 export CHAT_ID=<YOUR-CHAT-ID>
 ```
 or modify the line in the script.
 
-To run the script at reboot edit your crontab with
+- To run the script once an internet connection is established, do:
 ```bash
-crontab -e
-```
-and add at the bottom
-```bash
-@reboot sleep 10; $HOME/getpiip/getpiip.sh
+sudo ln -s $HOME/getpiip/getpiip.sh /etc/network/if-up.d/getip
 ```
 
 Chat Id
