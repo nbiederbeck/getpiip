@@ -9,5 +9,5 @@ function post_message {
     curl -s -X POST $URL -d chat_id=$CHAT_ID -d text="$1" > /dev/null
 }
 
-post_message "$IP"
+post_message "Hi, this is $(hostname) and this is my IP: $IP"
 echo "$IP"
